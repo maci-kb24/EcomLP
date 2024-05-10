@@ -1,17 +1,404 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app">
-      <header></header>
-      <main></main>
-      <footer></footer>
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <div class="wrapper">
+        <div class="menu">
+          <div class="logo">
+            <a class="logo-link" href="/index.html"><img src="./assets/images/mvmt-dark-logo.png" alt="logo" srcset=""
+                width="80px" height="80px" />
+            </a>
+          </div>
+          <nav role="navigation" class="nav">
+            <ul class="nav-links">
+              <li class="nav-item"><a href="#">Men</a></li>
+              <li class="nav-item"><a href="#">Women</a></li>
+              <li class="nav-item"><a href="#">Brand</a></li>
+            </ul>
+          </nav>
+          <!-- <div class="cart">
+            <a href="#">Cart(0)</a>
+          </div> -->
+        </div>
+        <div class="hero">
+          <div class="hero-left-column">
+            <div>
+              <h1 class="hero-left-title">Orion</h1>
+              <p>Rose Gold second hand titanium and rose gold double plated stainless steel</p>
+            </div>
+            <div style="margin-top:120px;">
+              <a class="hero-left-btn" href="#">Shop Now &#10230;</a>
+            </div>
+          </div>
+          <div class="hero-middle-column">
+            <img class="hero-img" src="./assets/images/hero-img.png" alt="hero-img" />
+          </div>
+          <div class="hero-right-column">
+            <p>Case size: <span>38 mm</span></p>
+            <p>Case thickness: <span>10 mm</span></p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="featured-products">
+        <div>
+          <h2>Featured Products</h2>
+        </div>
+        <div class="container wrapper">
+          <div class="card">
+            <div class="imgBx">
+              <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+            </div>
+            <div class="contentBx">
+              <h2>Nike Shoes</h2>
+
+              <div class="size">
+                <h3>Size :</h3>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+              </div>
+
+              <div class="color">
+
+                <h3>Color :</h3>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+            </div>
+
+            <div class="contentBx">
+
+              <h2>Nike Shoes</h2>
+
+              <div class="size">
+                <h3>Size :</h3>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+              </div>
+
+              <div class="color">
+
+                <h3>Color :</h3>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+              </div>
+
+              <div class="contentBx">
+
+                <h2>Nike Shoes</h2>
+
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>10</span>
+                </div>
+
+                <div class="color">
+
+                  <h3>Color :</h3>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <a href="#">Buy Now</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+            </div>
+            <div class="contentBx">
+              <h2>Nike Shoes</h2>
+              <div class="size">
+                <h3>Size :</h3>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+              </div>
+              <div class="color">
+                <h3>Color :</h3>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="customers">
+        <div class="customer-reviews">
+          <div class="outerdiv">
+            <div class="innerdiv">
+              <!-- div1 -->
+              <div class="div1 eachdiv">
+                <div class="userdetails">
+                  <div class="imgbox">
+                    <img
+                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
+                      alt="">
+                  </div>
+                  <div class="detbox">
+                    <p class="name">Daniel Clifford</p>
+                    <p class="designation">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the
+                    company I joined. I honestly feel I got every penny’s worth.</h4>
+                  <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition
+                    and have heard some people who had an amazing experience here. I signed up for the free intro course
+                    and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and
+                    most grueling - time of my life. Since completing the course, I’ve successfully switched careers,
+                    working as a Software Engineer at a VR startup. ”</p>
+                </div>
+              </div>
+              <!-- div2 -->
+              <div class="div2 eachdiv">
+                <div class="userdetails">
+                  <div class="imgbox">
+                    <img
+                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
+                      alt="">
+                  </div>
+                  <div class="detbox">
+                    <p class="name">Jonathan Walters</p>
+                    <p class="designation">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>The team was very supportive and kept me motivated</h4>
+                  <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for
+                    a big company. This was one of the best investments I’ve made in myself. ”</p>
+                </div>
+              </div>
+              <!-- div3 -->
+              <div class="div3 eachdiv">
+                <div class="userdetails">
+                  <div class="imgbox">
+                    <img
+                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
+                      alt="">
+                  </div>
+                  <div class="detbox">
+                    <p class="name dark">Kira Whittle</p>
+                    <p class="designation dark">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="review dark">
+                  <h4>Such a life-changing experience. Highly recommended!</h4>
+                  <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
+                    professionals who can help me learn programming step by step. I was encouraged to enroll by a former
+                    student of theirs who can only say wonderful things about the program. The entire curriculum and
+                    staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The
+                    agile team project, in particular, was outstanding. It took my learning to the next level in a way
+                    that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example
+                    of experience. It certainly helped me land a job as a full-stack 100% recommend! ”</p>
+                </div>
+              </div>
+              <!-- div4 -->
+              <div class="div4 eachdiv">
+                <div class="userdetails">
+                  <div class="imgbox">
+                    <img
+                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
+                      alt="">
+                  </div>
+                  <div class="detbox">
+                    <p class="name dark">Jeanette Harmon</p>
+                    <p class="designation dark">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="review dark">
+                  <h4>An overall wonderful and rewarding experience</h4>
+                  <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
+                    while doing something I love. ”</p>
+                </div>
+              </div>
+              <!-- div5 -->
+              <div class="div5 eachdiv">
+                <div class="userdetails">
+                  <div class="imgbox">
+                    <img
+                      src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
+                      alt="">
+                  </div>
+                  <div class="detbox">
+                    <p class="name">Patrick Abrams</p>
+                    <p class="designation">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="review">
+                  <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
+                    learning from their experiences was easy.</h4>
+                  <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program
+                    gave me the confidence necessary to be able to go out in the world and present myself as a capable
+                    junior developer. The standard is above the rest. You will get the personal attention you need from
+                    an incredible community of smart and amazing people. ”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="about-us-row">
+          <div class="about-us-story">
+            <h4>Abouts Us</h4>
+            <h2>Bringing the unexpected to classic timekeeping since 2013.</h2>
+            <p>For ten years, our small team of creatives have been proud to bring you what’s fresh in California Modern
+              watchmaking. Every MVMT is dreamed up collaboratively from our Venice Beach headquarters, and is built to
+              run with the precision, purpose and x-factors needed to make the best of the time you keep.</p>
+          </div>
+          <div class="about-us-join">
+            <h2>Join the MVMT</h2>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us">
+        <div class="form-box">
+          <div class="textup">
+            <i class="fa fa-solid fa-clock"></i>
+            It only takes two minutes!!
+          </div>
+          <form>
+            <label for="uname">
+              <i class="fa fa-solid fa-user"></i>
+              Name
+            </label>
+            <input type="text" id="uname" name="uname" required>
+
+            <label for="email">
+              <i class="fa fa-solid fa-envelope"></i>
+              Email Address
+            </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">
+              <i class="fa-solid fa-phone"></i>
+              Phone No
+            </label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label>
+              <i class="fa-solid fa-face-smile"></i>
+              Do you satisfy with our service?
+            </label>
+            <div class="radio-group">
+              <input type="radio" id="yes" name="satisfy" value="yes" checked>
+              <label for="yes">Yes</label>
+
+              <input type="radio" id="no" name="satisfy" value="no">
+              <label for="no">No</label>
+            </div>
+
+            <label for="msg">
+              <i class="fa-solid fa-comments" style="margin-right: 3px;"></i>
+              Write your Suggestions:
+            </label>
+            <textarea id="msg" name="msg" rows="4" cols="10" required>
+			</textarea>
+            <button type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Compressions</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Free Designs</a></li>
+            <li><a href="#">Latest Designs</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Popular Designs</a></li>
+            <li><a href="#">Art Skills</a></li>
+            <li><a href="#">New Uploads</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Customer Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Media Kit</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose
+            of news, updates, helpful tips, and
+            exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required>
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
