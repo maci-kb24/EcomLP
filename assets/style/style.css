@@ -553,9 +553,13 @@ a:hover {
 
 /* contact-us */
 
+.contact-us {
+  padding:80px 0px;
+}
+
 .textup { 
 	text-align: center; 
-	color: rgb(11, 118, 11); 
+	color: var(--text-color); 
 	font-weight: 700; 
 } 
 
@@ -565,10 +569,11 @@ i {
 
 .form-box { 
 	background-color: #fff; 
-	box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
-	padding: 15px; 
+	box-shadow: 0 0 10px var(--main-color); 
+	padding: 80px 15px; 
 	border-radius: 8px; 
-	width: 500px; 
+	width: 60%; 
+  margin: 0 auto;
 } 
 
 form { 
@@ -589,7 +594,7 @@ label {
 	display: block; 
 	margin-bottom: 8px; 
 	font-size: 17px; 
-	color: green; 
+	color: var(--text-color);
 	font-weight: 600; 
 } 
 
@@ -604,7 +609,7 @@ textarea {
 } 
 
 button { 
-	background-color: #368b44; 
+	background-color: var(--main-color); 
 	color: #fff; 
 	padding: 10px; 
 	border: none; 
@@ -616,15 +621,10 @@ button {
 } 
 
 button:hover { 
-	background-color: #0a6808; 
+	background-color: var(--text-color); 
 	border: none; 
-	transform: translateY(-10px); 
+	/* transform: translateY(-10px);  */
 } 
-
-h1 { 
-	/* color: green; */
-}
-
 
 /* footer */
 
