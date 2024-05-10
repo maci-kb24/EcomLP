@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
 </head>
 
 <body>
   <div id="app">
-    <header>
+    <header class="header">
       <div class="wrapper">
         <div class="menu">
           <div class="logo">
@@ -49,7 +50,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="featured-products">
         <div>
           <h2>Featured Products</h2>
@@ -57,17 +58,39 @@
         <div class="container wrapper">
           <div class="card">
             <div class="imgBx">
-              <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+              <img src="./assets/images/bestseller-product-1.png" alt="legaly slim | manta blue">
             </div>
             <div class="contentBx">
-              <h2>Nike Shoes</h2>
+              <h4>Legaly Slim</h4>
 
               <div class="size">
-                <h3>Size :</h3>
-                <span>7</span>
-                <span>8</span>
-                <span>9</span>
-                <span>10</span>
+                <h3>Case Size:</h3>
+                <span>34</span>
+                <span>36</span>
+                <span>38</span>
+                <span>42</span>
+              </div>
+              <div class="color">
+                <h3>Color :</h3>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img src="./assets/images/bestseller-product-2.png" alt="chrono | manta blue">
+            </div>
+            <div class="contentBx">
+              <h4>Chrono</h4>
+              <div class="size">
+                <h3>Case Size:</h3>
+                <span>34</span>
+                <span>36</span>
+                <span>38</span>
+                <span>42</span>
               </div>
 
               <div class="color">
@@ -83,71 +106,16 @@
           </div>
           <div class="card">
             <div class="imgBx">
-              <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
-            </div>
-
-            <div class="contentBx">
-
-              <h2>Nike Shoes</h2>
-
-              <div class="size">
-                <h3>Size :</h3>
-                <span>7</span>
-                <span>8</span>
-                <span>9</span>
-                <span>10</span>
-              </div>
-
-              <div class="color">
-
-                <h3>Color :</h3>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <a href="#">Buy Now</a>
-            </div>
-            <div class="card">
-              <div class="imgBx">
-                <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
-              </div>
-
-              <div class="contentBx">
-
-                <h2>Nike Shoes</h2>
-
-                <div class="size">
-                  <h3>Size :</h3>
-                  <span>7</span>
-                  <span>8</span>
-                  <span>9</span>
-                  <span>10</span>
-                </div>
-
-                <div class="color">
-
-                  <h3>Color :</h3>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <a href="#">Buy Now</a>
-              </div>
-
-            </div>
-          </div>
-          <div class="card">
-            <div class="imgBx">
-              <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+              <img src="./assets/images/bestseller-product-3.png" alt="chrono ceramic">
             </div>
             <div class="contentBx">
-              <h2>Nike Shoes</h2>
+              <h4>Chrono Ceramic</h4>
               <div class="size">
-                <h3>Size :</h3>
-                <span>7</span>
-                <span>8</span>
-                <span>9</span>
-                <span>10</span>
+                <h3>Case Size:</h3>
+                <span>34</span>
+                <span>36</span>
+                <span>38</span>
+                <span>42</span>
               </div>
               <div class="color">
                 <h3>Color :</h3>
@@ -167,6 +135,7 @@
               <!-- div1 -->
               <div class="div1 eachdiv">
                 <div class="userdetails">
+
                   <div class="imgbox">
                     <img
                       src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
@@ -174,17 +143,28 @@
                   </div>
                   <div class="detbox">
                     <p class="name">Daniel Clifford</p>
-                    <p class="designation">Verified Graduate</p>
+                    <p class="designation">Verified Purchase</p>
                   </div>
                 </div>
                 <div class="review">
-                  <h4>I received a job offer mid-course, and the subjects I learned were current, if not more so, in the
-                    company I joined. I honestly feel I got every penny’s worth.</h4>
-                  <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition
-                    and have heard some people who had an amazing experience here. I signed up for the free intro course
-                    and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and
-                    most grueling - time of my life. Since completing the course, I’ve successfully switched careers,
-                    working as a Software Engineer at a VR startup. ”</p>
+                  <div class="review-stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h4>Joined the MVMT</h4>
+                  </div>
+
+                  <p>“I've been wearing this watch since the weekend, and I have to say that I absolutely love it. It
+                    can be worn casually or formally, because it goes with just about anything, and it looks great in
+                    any situation. I'm a bigger guy, so I was curious as to how it would fit before possibly having to
+                    insert one of the extra adjustable pins to resize the watch. I didn't have to mess with that at all,
+                    and it fits perfectly/feels great. I've seen a couple other reviews for this watch on here
+                    mentioning that the hands and numbers aren't black like in the description photos, but silver. This
+                    actually isn't the case. The hands and numbers indeed are black, but they are a very shiny black, so
+                    if light hits them a certain way they appear silver.”</p>
+
                 </div>
               </div>
               <!-- div2 -->
@@ -197,13 +177,23 @@
                   </div>
                   <div class="detbox">
                     <p class="name">Jonathan Walters</p>
-                    <p class="designation">Verified Graduate</p>
+                    <p class="designation">Verified Purchase</p>
                   </div>
                 </div>
                 <div class="review">
-                  <h4>The team was very supportive and kept me motivated</h4>
-                  <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for
-                    a big company. This was one of the best investments I’ve made in myself. ”</p>
+                  <div class="review-stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <h4>GREAT WATCH</h4>
+                  </div>
+
+                  <p>“ I've been looking for a solid watch to replace my Obaku (Denmark) watch which I loved (probably a
+                    little too much for a watch). After searching around for a fashionable yet not overly expensive
+                    watch I stumbled upon a crowd funding watch named MVMT..
+                    ”</p>
                 </div>
               </div>
               <!-- div3 -->
@@ -216,18 +206,22 @@
                   </div>
                   <div class="detbox">
                     <p class="name dark">Kira Whittle</p>
-                    <p class="designation dark">Verified Graduate</p>
+                    <p class="designation dark">Verified Purchase</p>
                   </div>
                 </div>
                 <div class="review dark">
-                  <h4>Such a life-changing experience. Highly recommended!</h4>
-                  <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
-                    professionals who can help me learn programming step by step. I was encouraged to enroll by a former
-                    student of theirs who can only say wonderful things about the program. The entire curriculum and
-                    staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The
-                    agile team project, in particular, was outstanding. It took my learning to the next level in a way
-                    that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example
-                    of experience. It certainly helped me land a job as a full-stack 100% recommend! ”</p>
+                  <h4>5.0 out of 5 stars Beautiful watch! It is easy to remove links to make the band smaller.</h4>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <p>“ This is a Christmas gift for our college age son. He absolutely loves it. Simple, yet elegant
+                    watch face and nice metal band. The watch has some heft and feels substantial. There were not any
+                    directions on how to remove the links, but we were able to find a YouTube video on how to remove
+                    links. We had a rubber mallet and a metal olive pick that we used to tap out the pins. When placing
+                    a pin to reconnect two links together, make sure you are inserting the pin the right way. If it is
+                    inserted with the narrow part first, then it is a simple tap, tap and the pin slides in.
                 </div>
               </div>
               <!-- div4 -->
@@ -240,13 +234,20 @@
                   </div>
                   <div class="detbox">
                     <p class="name dark">Jeanette Harmon</p>
-                    <p class="designation dark">Verified Graduate</p>
+                    <p class="designation dark">Verified Purchase</p>
                   </div>
                 </div>
                 <div class="review dark">
-                  <h4>An overall wonderful and rewarding experience</h4>
-                  <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
-                    while doing something I love. ”</p>
+                  <h4>Great watch for the price!</h4>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p>“ I am very happy with the quality of this watch. It has proven to live up to all that it has said
+                    it would…. I also support the brand’s mission and values. I only wish I could find other bands for
+                    it easily. Primarily a rubber athletic one.
+                    ”</p>
                 </div>
               </div>
               <!-- div5 -->
@@ -259,16 +260,24 @@
                   </div>
                   <div class="detbox">
                     <p class="name">Patrick Abrams</p>
-                    <p class="designation">Verified Graduate</p>
+                    <p class="designation">Verified Purchase</p>
                   </div>
                 </div>
                 <div class="review">
-                  <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
-                    learning from their experiences was easy.</h4>
-                  <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program
-                    gave me the confidence necessary to be able to go out in the world and present myself as a capable
-                    junior developer. The standard is above the rest. You will get the personal attention you need from
-                    an incredible community of smart and amazing people. ”</p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <h4>Good quality, good value.</h4>
+                  <p>“ Classy looking timepiece that could be worn in many different occasions. It looks a little
+                    different in person than in the ad. In my opinion it looks better in the ad however still nice in
+                    person.it comes in a cool looking, durable case for transport. Also accompanied by two extra links
+                    if your wrist is the diameter of a telephone pole. Not to mention the amount of links (other than
+                    the extra ones included) make the band huge. I need to look closer to figure out how to remove 2
+                    links but I have not had a chance to do so. Delivery time was right on schedule and I will be
+                    purchasing more from this manufacturer
+                    ”</p>
                 </div>
               </div>
             </div>
@@ -276,18 +285,18 @@
         </div>
       </section>
       <section class="about-us">
-        <div class="about-us-row">
-          <div class="about-us-story">
-            <h4>Abouts Us</h4>
-            <h2>Bringing the unexpected to classic timekeeping since 2013.</h2>
-            <p>For ten years, our small team of creatives have been proud to bring you what’s fresh in California Modern
-              watchmaking. Every MVMT is dreamed up collaboratively from our Venice Beach headquarters, and is built to
-              run with the precision, purpose and x-factors needed to make the best of the time you keep.</p>
+          <div class="about-us-row">
+            <div class="about-us-story">
+              <h4>Abouts Us</h4>
+              <h2>Bringing the unexpected to classic timekeeping since 2013.</h2>
+              <p>For ten years, our small team of creatives have been proud to bring you what’s fresh in California Modern
+                watchmaking. Every MVMT is dreamed up collaboratively from our Venice Beach headquarters, and is built to
+                run with the precision, purpose and x-factors needed to make the best of the time you keep.</p>
+            </div>
+            <div class="about-us-join">
+              <h2>Join the MVMT</h2>
+            </div>
           </div>
-          <div class="about-us-join">
-            <h2>Join the MVMT</h2>
-          </div>
-        </div>
       </section>
       <section class="contact-us">
         <div class="form-box">
