@@ -7,14 +7,13 @@
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-
+  font-display: swap;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   --main-color: #D6CBC3;
-  /* --text-color: #5F554E; */
   --text-color: #3F3D36;
   --dark-color: #333333;
 }
