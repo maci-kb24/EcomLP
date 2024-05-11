@@ -402,13 +402,11 @@ a:hover {
   background: var(--main-color);
   grid-column: 1/3;
   grid-row: 1/2;
-  /* background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg); */
   background-repeat: no-repeat;
   background-position-x: 25rem;
 }
 
 .div2 {
-  /* background: #49556B; */
   grid-column: 3/4;
   grid-row: 1/2;
 }
@@ -465,7 +463,6 @@ a:hover {
 }
 
 .detbox .designation {
-  /* opacity: 50%; */
   font-size: 0.8rem;
 }
 
@@ -520,7 +517,7 @@ a:hover {
   padding:80px 60px;
 }
 .about-us-join {
-  background-image: url(assets/images/join-mvmt.png);
+  background-image: url('../images/join-mvmt.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
