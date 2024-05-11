@@ -14,7 +14,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --main-color: #D6CBC3;
-  --text-color: #5F554E;
+  /* --text-color: #5F554E; */
+  --text-color: #3F3D36;
   --dark-color: #333333;
 }
 
@@ -465,7 +466,7 @@ a:hover {
 }
 
 .detbox .designation {
-  opacity: 50%;
+  /* opacity: 50%; */
   font-size: 0.8rem;
 }
 
@@ -476,7 +477,6 @@ a:hover {
 
 .review p {
   font-weight: 500;
-  opacity: 50%;
 }
 
 @media only screen and (max-width: 1000px) {
