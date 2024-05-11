@@ -36,6 +36,7 @@ body {
 .wrapper {
   max-width: 1150px;
   margin: 0 auto;
+  padding:0px 15px;
 }
 
 img {
@@ -115,12 +116,21 @@ header {
 }
 
 .hero .hero-left-column {
-  width: 25%;
+  flex:0.5;
 }
 
 .hero .hero-left-column .hero-left-title {
   margin: 20px 0px;
   font-weight: 400;
+}
+.hero .hero-left-column .hero-left-btn-container {
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero .hero-left-column .hero-left-btn-container {
+    margin-top: 40px;
+  }
 }
 .hero .hero-left-column .hero-left-btn {
   background-color: var(--text-color);
@@ -130,15 +140,28 @@ header {
   border-radius: 5px;
 }
 .hero .hero-middle-column {
-  width: 50%;
+  flex:1;
 }
 .hero .hero-right-column {
-  width: 25%;
+  flex:0.5;
 }
+
+.hero .hero-right-column span {
+  margin-left:80px;
+}
+
 
 .hero .hero-middle-column .hero-img {
   width:55%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding:80px 0px;
+  }
 }
 
 /* featured products */
@@ -502,7 +525,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     transform: scale(1);
-    margin: 2rem;
     margin-bottom: 5rem;
   }
 }
@@ -547,6 +569,13 @@ a:hover {
   .about-us-join {
       display: block;
   }
+
+}
+
+@media (max-width:768px) {
+  .about-us-story {
+     padding:0px 15px;
+  }
 }
 
 @media (min-width:768px) {
@@ -578,7 +607,7 @@ i {
 	box-shadow: 0 0 10px var(--main-color); 
 	padding: 60px 45px; 
 	border-radius: 8px; 
-	width: 85%;
+	width: 90%;
   margin: 0 auto;
 } 
 
@@ -749,7 +778,7 @@ input:focus-visible {
   }
 
   .footer .footer-row {
-    padding: 20px;
+    padding: 15px;
     gap: 1rem;
     flex-direction: column;
   }
