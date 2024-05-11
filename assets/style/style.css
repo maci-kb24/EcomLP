@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,6 +15,7 @@
 
   --main-color: #D6CBC3;
   --text-color: #5F554E;
+  --dark-color: #333333;
 }
 
 html {
@@ -43,10 +47,11 @@ img {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--dark-color)
 }
 
 h2 {
-  color: var(--text-color);
+  color: var(--dark-color);
   font-size: 1.5em;
 }
 
@@ -646,25 +651,24 @@ input:focus-visible {
 /* footer */
 
 .footer {
-  background: #10182F;
+  background: var(--main-color);
 }
 
 .footer .footer-row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 3.5rem;
   padding: 60px;
 }
 
 .footer-row .footer-col h4 {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 400;
+  color: #333333;
+  font-weight: bold;
 }
 
 .footer-col .links {
   margin-top: 20px;
+  padding-left:0px;
 }
 
 .footer-col .links li {
@@ -674,16 +678,16 @@ input:focus-visible {
 
 .footer-col .links li a {
   text-decoration: none;
-  color: #bfbfbf;
+  color: var(--text-color)
 }
 
 .footer-col .links li a:hover {
-  color: #fff;
+  text-decoration: line-through;
+  font-weight: 500;
 }
 
 .footer-col p {
   margin: 20px 0;
-  color: #bfbfbf;
   max-width: 300px;
 }
 
@@ -702,6 +706,7 @@ input:focus-visible {
   caret-color: #fff;
   color: #fff;
   padding-left: 10px;
+  font-size: 12px;
 }
 
 .footer-col input::placeholder {
@@ -709,33 +714,28 @@ input:focus-visible {
 }
 
  .footer-col form button {
-  background: #fff;
+  background-color: var(--text-color);
   outline: none;
   border: none;
   padding: 10px 15px;
   border-radius: 6px;
+  color: var(--main-color);
   cursor: pointer;
   font-weight: 500;
   transition: 0.2s ease;
-}
-
-.footer-col form button:hover {
-  background: #cecccc;
+  width: 45%;;
 }
 
 .footer-col .icons {
   display: flex;
-  margin-top: 30px;
-  gap: 30px;
+  margin-top: 20px;
+  gap: 10px;
   cursor: pointer;
 }
 
 .footer-col .icons i {
-  color: #afb6c7;
-}
-
-.footer-col .icons i:hover  {
-  color: #fff;
+  color: black;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
@@ -751,6 +751,7 @@ input:focus-visible {
   .footer .footer-row {
     padding: 20px;
     gap: 1rem;
+    flex-direction: column;
   }
 
   .footer-col form {
@@ -763,5 +764,6 @@ input:focus-visible {
 
   .footer-col form button {
     margin: 10px 0 0 0;
+    width: 100%;
   }
 }
